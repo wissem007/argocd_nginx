@@ -6,7 +6,7 @@ metadata:
     type: front-end
   name: nginx-deployment
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       app: nginx-app
