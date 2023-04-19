@@ -18,5 +18,5 @@ spec:
         type: front-end
     spec:
       containers:
-      - image: wissem007/ges:v.80
+      - image: nginxdemos/hello
         name: nginx-container
