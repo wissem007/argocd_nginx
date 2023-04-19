@@ -6,7 +6,7 @@ metadata:
     type: front-end
   name: nginx-deployment
 spec:
-  replicas: 10
+  replicas: 4
   selector:
     matchLabels:
       app: nginx-app
@@ -18,5 +18,5 @@ spec:
         type: front-end
     spec:
       containers:
-      - image: nginxdemos/hello
+      - image: wissem007/ges:v.80
         name: nginx-container
